@@ -1,6 +1,7 @@
 ---
  layout: page
- ---
+---
+
  # About
     
  ## Project
