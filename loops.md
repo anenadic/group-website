@@ -2,26 +2,17 @@
  layout: page
 ---
 
- # About
-    
- ## Project
-    
- {{ site.description }}
+## Team
 
- ## Funders
- We gratefully acknowledge funding from the XYZ Founding Council, under grant number 'abc'.
+The following people are members of our research team:
 
- ## Team
+{% for team_member in site.team_members %}
+- **Name:** {{ team_member.name }}, **role:** {{ team_member.role }}
+{% endfor %}
 
- The following people are members of our research team:
+## Cite us
 
- {% for team_member in site.team_members %}
- - **Name:** {{ team_member.name }}, **role:** {{ team_member.role }}
- {% endfor %}
+You can cite the project as:
 
- ## Cite us
-
- You can cite the project as:
-
- >    *The Carpentries 2019 Annual Report. Zenodo. https://doi.org/10.5281/zenodo.3840372*
+>    *The Carpentries 2019 Annual Report. Zenodo. https://doi.org/10.5281/zenodo.3840372*
     
