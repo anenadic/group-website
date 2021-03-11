@@ -1,4 +1,7 @@
-# About
+---
+layout: page
+title: About
+---
 
 ## Project
 {{ site.description }}
