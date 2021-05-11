@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 lesson-example: "https://carpentries.github.io/lesson-example/"
 ---
 
